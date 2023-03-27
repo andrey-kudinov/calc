@@ -1,0 +1,18 @@
+.calc {
+    display: block;
+    margin: 300px 500px;
+    background: rgb(203, 203, 203);
+}
+
+.buttons {
+    display: grid;
+    gap: 0 40px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 50px;
+    background: rgb(121, 121, 121);
+}
+
+.calc__value {
+    text-align: center;
+    padding: 15px;
+}
